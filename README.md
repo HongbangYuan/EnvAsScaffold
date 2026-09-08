@@ -1,6 +1,6 @@
 # Environments as Scaffold
 
-论文 **Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks** 的研究代码，基于 verl 和 verl-agent，包含 **SciWorld** 与 **BFCL Multi-Turn** 两个环境。
+论文 Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks 的相关代码，基于 [verl-agent](https://github.com/langfengQ/verl-agent)，包含 SciWorld 与 BFCL V3 Multi-Turn 两个环境。
  
 ## 代码结构
 
@@ -56,5 +56,6 @@ bash scripts/evaluate.sh sciworld
 本项目建立在以下优秀开源工作的基础上，感谢相关作者和社区的贡献。
 
 - [verl-agent](https://github.com/langfengQ/verl-agent)
-- [SciWorld / ScienceWorld](https://github.com/allenai/ScienceWorld)
+- [SciWorld](https://github.com/allenai/ScienceWorld)
 - [BFCL](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard)
+- [AppWorld] (https://github.com/StonyBrookNLP/appworld)
