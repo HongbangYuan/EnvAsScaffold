@@ -1,0 +1,5 @@
+# Runtime requirements are maintained in setup.py and the two environment packages.
+-e ./agent_system/environments/env_package/sciworld/ScienceWorld
+-e ./agent_system/environments/env_package/bfcl/berkeley_function_call_leaderboard
+-e .[vllm]
+# Install flash-attn separately after torch; see scripts/install.sh.

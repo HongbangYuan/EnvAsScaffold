@@ -1,0 +1,10 @@
+# Third-party notices
+
+This curated release contains modified and unmodified upstream code. Existing copyright and license notices are preserved; they identify upstream contributors, not the authors of the submission. Implementation changes are described in `docs/IMPLEMENTATION.md`.
+
+- **verl**: [upstream repository](https://github.com/volcengine/verl). The inherited Apache-2.0 license is in `LICENSE`; original attribution is in source headers and `Notice.txt`.
+- **verl-agent / GiGPO**: [upstream repository](https://github.com/langfengQ/verl-agent). Original team attribution is in `Notice.txt` and source headers. Shared rollout/worker infrastructure is retained, even where optional backend support exceeds the two task domains.
+- **ScienceWorld**: the copied runtime wrapper, simulator source, JAR and split integration live under `agent_system/environments/env_package/sciworld`. The upstream license is preserved at `ScienceWorld/LICENSE`; upstream project details are in `ScienceWorld/README.md`. The paper attributes its integration to [RLVMR](https://github.com/Tencent/DigitalHuman/tree/main/RLVMR). The exact upstream commit of the locally supplied wrapper/JAR was not recoverable from this source snapshot.
+- **BFCL / Gorilla**: [upstream repository](https://github.com/ShishirPatil/gorilla). The local upstream package metadata declares Apache 2.0. The reduced runtime package includes `LICENSE`. Original package metadata credits Huanzhi Mao, Shishir Patil and the Sky Computing Lab. Newly supplied public dataset files are pinned and hashed in `docs/bfcl_data_provenance.json`. Their synthetic tool credentials are benchmark fixtures, not private service credentials, and have not been rewritten because that would change the tasks and ground truth.
+
+The release removes author/contact fields from its own installer metadata and private operational information. It does not erase upstream copyright notices. Public benchmark fixtures and upstream attribution should not be mistaken for private author-identifying infrastructure.
